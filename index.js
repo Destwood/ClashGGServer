@@ -1,7 +1,7 @@
 const Index = require('ws');
 const { v4: uuidv4 } = require('uuid');
 
-const port = 5000;
+const port = 8001;
 const wss = new Index.Server({ port }, () => {
     console.log(`Server started on ws://localhost:${port}`);
 });

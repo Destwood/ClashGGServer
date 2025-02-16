@@ -44,7 +44,7 @@ function handleEvent(message, ws) {
             services_1.UserServices.removeUserFromRoom(rooms, message, ws);
             break;
         case enums_1.ChatEvents.deletePrivateRoom:
-            services_1.RoomServices.deleteRoom(rooms, message, ws);
+            services_1.RoomServices.deleteRoom(rooms, message);
             break;
         case enums_1.ChatEvents.disconnect:
             services_1.UserServices.disconnect(rooms, ws);

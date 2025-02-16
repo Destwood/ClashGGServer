@@ -53,7 +53,7 @@ function handleEvent(message: IEvent, ws: WebSocket) {
             break;
 
         case ChatEvents.deletePrivateRoom:
-            RoomServices.deleteRoom(rooms, message, ws);
+            RoomServices.deleteRoom(rooms, message);
             break;
 
         case ChatEvents.disconnect:

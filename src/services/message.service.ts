@@ -1,4 +1,3 @@
-import WS from 'ws';
 import { IEvent } from "../types";
 import { IRoom } from "../types";
 import { IClient } from "../types";
